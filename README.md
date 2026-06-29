@@ -103,7 +103,7 @@ X: Raw EEG signals. Shape: (Num_Samples, 19 * 1024)
 
 y: Labels (0 or 1). Shape: (Num_Samples,)
 
-adj1 to adj9: 9 Topological adjacency matrices (Full-band matrices + KNN/PT masks for both PLV and PC). Shape for each: (Num_Samples, 19, 19)
+adj1 to adj6: 6 Topological adjacency matrices (Full-band matrices + KNN/PT masks for both PLV and PC). Shape for each: (Num_Samples, 19, 19)
 
 Usage (Python)
 
