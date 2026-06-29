@@ -10,7 +10,7 @@ ROOT = 'D:\Downloads\eeglab_current\128';
 cfg.asd_root = fullfile(ROOT, 'asd', 'delta');
 cfg.td_root  = fullfile(ROOT, 'td', 'delta');
 cfg.fdr_q    = 0.05;
-cfg.num_subjects = 60;
+cfg.num_subjects = 50;
 
 %% 2. Data Loading
 fprintf('Loading data...\n');
